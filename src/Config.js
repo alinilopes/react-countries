@@ -1,0 +1,17 @@
+// initial theme
+import ThemeDark from './assets/style/ThemeDark';
+import ThemeLight from './assets/style/ThemeLight';
+
+const THEMES = [
+  { title: 'Dark', scheme: ThemeDark },
+  { title: 'Light', scheme: ThemeLight }
+];
+
+const Config = {
+  URL_API: 'https://restcountries.eu/rest/v2',
+  PAGE_TITLE: 'Country API - React',
+  THEMES,
+  INITIAL_THEME: THEMES[0]
+};
+
+export default Config;
